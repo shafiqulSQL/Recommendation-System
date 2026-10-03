@@ -6,7 +6,7 @@ item-based, and matrix factorization via Truncated SVD) on a synthetic product c
 
 This project uses a **self-generated synthetic dataset**
 (`recommendation_system_dataset_v2.xlsx`), built with the same structure as the
-course-provided dataset (60 items across 6 categories, ~3,460 ratings from 300 users) but
+course-provided dataset (60 items across 6 categories, 3,460 ratings from 300 users) but
 with an entirely new catalog and rating history, generated in `data/generate_dataset.py`.
 
 ## Project summary
