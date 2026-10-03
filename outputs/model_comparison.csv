@@ -1,0 +1,5 @@
+Model,RMSE
+Naive (global average),1.2466157535427083
+Collaborative - Item-based,1.3187670349794813
+Collaborative - SVD,1.3219169711339145
+Collaborative - User-based,1.4401372661820624

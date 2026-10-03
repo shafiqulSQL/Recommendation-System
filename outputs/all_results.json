@@ -1,0 +1,10 @@
+{
+  "naive_rmse": 1.2466157535427083,
+  "user_based_cf_rmse": 1.4401372661820624,
+  "svd_rmse": 1.3219169711339145,
+  "item_based_cf_rmse": 1.3187670349794813,
+  "n_test_ratings": 692,
+  "cold_start_item_id": 60,
+  "cold_start_user_id": 300,
+  "cold_start_user_n_ratings": 1
+}
