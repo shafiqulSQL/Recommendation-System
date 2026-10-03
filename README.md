@@ -14,8 +14,8 @@ with an entirely new catalog and rating history, generated in `data/generate_dat
 * **Content-based filtering:** items represented by TF-IDF vectors of their
 tags/description; recommendations are the most similar items by cosine similarity.
 * **Collaborative filtering (user-based):** recommends items liked by the most similar
-users, based on cosine similarity over the user\\u2013item rating matrix.
-* **Collaborative filtering (item-based):** the additional variation \\u2014 recommends items
+users, based on cosine similarity over the user 2013 item rating matrix.
+* **Collaborative filtering (item-based):** the additional variation 2014 recommends items
 similar to ones a user already rated, based on how items co-occur in other users'
 ratings.
 * **Matrix factorization (Truncated SVD):** learns latent "taste dimensions" for users and
@@ -84,11 +84,11 @@ the `outputs/` folder.
 |Sheet|Contents|
 |-|-|
 |`Items`|60 products across 6 categories (Tech & Gadgets, Outdoor & Camping, Kitchen & Dining, Fitness & Wellness, Books & Media, Office & Stationery), with title, tags, price, and description|
-|`Ratings`|3,460 user\\u2013item ratings from 300 users, 1\\u20135 scale, with timestamps|
+|`Ratings`|3,460 user 2013 item ratings from 300 users, 1 20135 scale, with timestamps|
 
 All data is synthetic, generated for this project with deliberate latent structure: each
 user has a primary and secondary preferred category, so both content-based and
-collaborative models have genuine signal to find \\u2014 see `data/generate_dataset.py` for the
+collaborative models have genuine signal to find 2014 see `data/generate_dataset.py` for the
 exact generation logic.
 
 ## Key results
