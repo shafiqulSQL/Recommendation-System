@@ -84,11 +84,11 @@ the `outputs/` folder.
 |Sheet|Contents|
 |-|-|
 |`Items`|60 products across 6 categories (Tech & Gadgets, Outdoor & Camping, Kitchen & Dining, Fitness & Wellness, Books & Media, Office & Stationery), with title, tags, price, and description|
-|`Ratings`|3,460 user 2013 item ratings from 300 users, 1 20135 scale, with timestamps|
+|`Ratings`|3,460 user 2013 item ratings from 300 users, 20135 scale, with timestamps|
 
 All data is synthetic, generated for this project with deliberate latent structure: each
 user has a primary and secondary preferred category, so both content-based and
-collaborative models have genuine signal to find 2014 see `data/generate_dataset.py` for the
+collaborative models have genuine signal to find - see `data/generate_dataset.py` for the
 exact generation logic.
 
 ## Key results
@@ -96,12 +96,12 @@ exact generation logic.
 |Model|RMSE on held-out ratings|
 |-|-|
 |Naive (global average)|1.247|
-|Collaborative \\u2014 Item-based|1.319|
-|Collaborative \\u2014 SVD|1.322|
-|Collaborative \\u2014 User-based|1.440|
+|Collaborative- Item-based|1.319|
+|Collaborative- SVD|1.322|
+|Collaborative- User-based|1.440|
 
 Notably, **every collaborative model scored worse than the naive baseline** on this
-dataset \\u2014 see the report for why, and what that implies about rating sparsity.
+dataset - see the report for why, and what that implies about rating sparsity.
 
 ## Author
 
